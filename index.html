@@ -1,15 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Portfolio técnico de Diego Herrera — proyectos, desarrollo, y aprendizaje en programación.">
-        <meta name="keywords" content="Diego Herrera, portfolio, desarrollador, programación, HTML, CSS, JavaScript, Firebase, Android">
-        <meta name="author" content="Diego Herrera">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>Diego Herrera | Portfolio</title>
-    </head>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Portfolio técnico de Diego Herrera — proyectos, desarrollo, y aprendizaje en programación.">
+    <meta name="keywords" content="Diego Herrera, portfolio, desarrollador, programación, HTML, CSS, JavaScript, Firebase, Android, Python">
+    <meta name="author" content="Diego Herrera">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <title>Diego Herrera | Portfolio</title>
+    <link rel="stylesheet" href="assets/style/styles.css">
+    <script src="https://kit.fontawesome.com/4d6e2f6b8f.js" crossorigin="anonymous"></script>
+</head>
 <body>
-    <h1>Diego Herrera</h1>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="profile-block">
+                <img src="assets/images/fotoPerfil.jpg" alt="Foto de perfil de Diego Herrera" class="profile-photo">
+                <div>
+                    <h1 class="name">Diego Herrera</h1>
+                    <p class="role">Desarrollador Full-stack</p>
+                </div>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#about">Sobre mí</a>
+                <a href="#projects">Proyectos</a>
+                <a href="#titulations">Titulaciones</a>
+            </nav>
+
+            <div class="social-icons">
+                <a href="https://github.com/DiegoHerrera1708" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/DiegoHerrera1708/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/diegx.hg" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main-content">
+
+        <!-- Sobre mí -->
+        <section id="about" class="section about">
+            <h2>Sobre mí</h2>
+            <p>Soy un desarrollador apasionado por la tecnología y el aprendizaje continuo. Me especializo en desarrollo full stack, utilizando tecnologías como HTML, CSS, Java, Firebase y Android. Actualmente, sigo ampliando mis conocimientos en Python y desarrollo multiplataforma.</p>
+
+            <h3>Habilidades Técnicas</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                    <h4>Lenguajes y Frameworks</h4>
+                    <p>HTML5, CSS3, Java, Python</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-desktop"></i></div>
+                    <h4>Entornos de Desarrollo</h4>
+                    <p>Eclipse, IntelliJ, Visual Studio Code, Android Studio, NetBeans</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div>
+                    <h4>Control de Versiones</h4>
+                    <p>Git, GitHub, Trello</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                    <h4>Bases de Datos</h4>
+                    <p>Firebase, MongoDB, MySQL</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-palette"></i></div>
+                    <h4>Diseño UI/UX</h4>
+                    <p>JavaFX, Java Swing, Jetpack Compose</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h4>Otras Competencias</h4>
+                    <p>Resolución de problemas, trabajo en equipo, aprendizaje continuo</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section id="projects" class="section projects">
+            <h2>Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Time Planning</h3>
+                    <p>Aplicación android desarrollada con <strong>Java</strong> y <strong>Jetpack Compose</strong> para organizar planes con amigos, crear grupos y gestionar participantes.</p>
+                    <p class="stack"><strong>Stack:</strong> Java, Jetpack Compose, Firebase, Android Studio</p>
+                    <a href="https://github.com/DiegoHerrera1708/TFC-DAM" target="_blank">Ver en GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Titulaciones -->
+        <section id="titulations" class="section titulations">
+            <h2>Titulaciones</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="timeline-content">
+                        <h4><i class="fa-solid fa-graduation-cap"></i> Bachillerato Tecnológico</h4>
+                        <p>IES Fuente Lucena (Alhaurín el Grande, ES)</p>
+                        <p class="timeline-date">2021 - 2023</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="timeline-content">
+                        <h4><i class="fa-solid fa-laptop-code"></i> Desarrollo de Aplicaciones Multiplataforma</h4>
+                        <p>IES Vega de Mijas (Mijas, ES)</p>
+                        <p class="timeline-date">2023 - 2025</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="timeline-content">
+                        <h4><i class="fa-solid fa-python"></i> Desarrollador de Aplicaciones en Python</h4>
+                        <p>CPIFP Alan Turing (Málaga, ES)</p>
+                        <p class="timeline-date">2025 - 2026 (Activo)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Diego Herrera. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
