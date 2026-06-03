@@ -72,7 +72,7 @@ Conectemos y hablemos de posibles colaboraciones, oportunidades de trabajo o dud
 | :--------------------- | :-------------------------------------------- |
 | **LinkedIn**           | [LinkedIn](https://www.linkedin.com/in/DiegoHerrera1708)       |
 | **Instagram** | [@diegx.hg](https://www.instagram.com/diegx.hg) |
-| **Correo Electrónico** | [Gmail](mailto:diegoherrera.alh132@gmail.com) |
+| **Correo Electrónico** | [Gmail](mailto:diegoherreragarcia.05@gmail.com) |
 
 ---
 
